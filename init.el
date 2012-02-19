@@ -10,7 +10,8 @@
 (when
     (load
      (expand-file-name "~/.emacs.d/elpa/package.el"))
-  (package-initialize))
+  (package-initialize)
+  (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/")))
 
 ;;; Theme
 (require 'color-theme)
@@ -41,6 +42,9 @@
 (require 'linum)
 (setq linum-format "%5d ")
 (global-linum-mode t)
+
+;;; Keyboard shortcuts
+(global-set-key (kbd "<C-tab>") 'anything)
 
 ;;; Language specific modes
 
