@@ -38,6 +38,8 @@
 ;; last line must be a newline
 (setq require-final-newline t)
 
+(setq-default delete-key-deletes-forward t)
+
 ;; line numbers
 (require 'linum)
 (setq linum-format "%5d ")
@@ -45,6 +47,7 @@
 
 ;;; Keyboard shortcuts
 (global-set-key (kbd "<C-tab>") 'anything)
+(global-set-key "\M-;" 'goto-line)
 
 ;;; Language specific modes
 
