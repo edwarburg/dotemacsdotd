@@ -73,6 +73,8 @@
 (global-set-key [C-delete]    'kill-word)
 (global-set-key [C-backspace] 'backward-kill-word)
 
+;; make command into meta
+
 
 ;;; Language specific modes
 
