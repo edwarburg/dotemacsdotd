@@ -100,8 +100,12 @@
 (add-to-list 'interpreter-mode-alist '("lua" . lua-mode))
 
 ;; JR
-(add-to-list 'auto-mode-alist '("\\.jr$" . java-mode))
-(add-to-list 'auto-mode-alist '("\\.jrs$" . java-mode))
+(require 'jr-mode)
+(add-to-list 'auto-mode-alist '("\\.jr$" . jr-mode))
+(add-to-list 'auto-mode-alist '("\\.jrs$" . jr-mode))
+(add-to-list 'auto-mode-alist '("\\.ccr$" . jr-mode))
+(add-to-list 'auto-mode-alist '("\\.jsp$" . jr-mode))
+
 
 ;; prolog
 (autoload 'run-prolog "prolog" "Start a Prolog sub-process." t)
