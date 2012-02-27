@@ -69,6 +69,7 @@
 (global-set-key [f2] 'next-error)
 (global-set-key [S-f2] 'previous-error)
 (global-set-key [f3] 'other-window)
+(global-set-key [f4] 'dired)
 
 (global-set-key [C-delete]    'kill-word)
 (global-set-key [C-backspace] 'backward-kill-word)
@@ -106,6 +107,15 @@
 (add-to-list 'auto-mode-alist '("\\.ccr$" . jr-mode))
 (add-to-list 'auto-mode-alist '("\\.jsp$" . jr-mode))
 
+;; Org mode
+(require 'org-install)
+(add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(setq org-log-done t)
+
+;; perl
+(add-to-list 'auto-mode-alist '("\\.pl$" . perl-mode))
 
 ;; prolog
 (autoload 'run-prolog "prolog" "Start a Prolog sub-process." t)
