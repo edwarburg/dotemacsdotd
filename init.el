@@ -112,7 +112,10 @@
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
+(define-key global-map "\C-cat" 'org-todo-list)
+(define-key global-map "\C-caa" 'org-agenda)
 (setq org-log-done t)
+(setq org-agenda-files (list "~/.emacs.d/org/school.org"))
 
 ;; perl
 (add-to-list 'auto-mode-alist '("\\.pl$" . perl-mode))
