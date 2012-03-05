@@ -110,10 +110,10 @@
 ;; Org mode
 (require 'org-install)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
-(define-key global-map "\C-cl" 'org-store-link)
-(define-key global-map "\C-ca" 'org-agenda)
-(define-key global-map "\C-cat" 'org-todo-list)
-(define-key global-map "\C-caa" 'org-agenda)
+(global-set-key [C-cl] 'org-store-link)
+(global-set-key [C-ca] 'org-agenda)
+(global-set-key [C-cat] 'org-todo-list)
+(global-set-key [C-caa] 'org-agenda)
 (setq org-log-done t)
 (setq org-agenda-files (list "~/.emacs.d/org/school.org"))
 
@@ -131,6 +131,10 @@
 (add-hook 'prolog-mode-hook
 		  (lambda ()
 			(local-set-key "\C-c\C-k" 'prolog-compile-file)))
+
+
+;; R
+(load  "~/.emacs.d/plugins/ess-5.12/lisp/ess-site.el")
 
 
 ;; ruby

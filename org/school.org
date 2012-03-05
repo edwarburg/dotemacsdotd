@@ -1,31 +1,55 @@
 * ECS 160
-** TODO Finish milestone 1, due 2/29
-   SCHEDULED: <2012-02-29 Wed>
+** DONE Finish milestone 2, due 2/29
+   SCHEDULED: <2012-02-29 Wed> CLOSED: [2012-02-29 Wed 08:48]
+** TODO Finish Whole Project
 *** TODO Location tracker
-*** TODO Sending text messages
+**** DONE Basic implementation
+     CLOSED: [2012-02-27 Mon 20:40]
+**** TODO trigger event when person leaves
+**** DONE integrate with datastore
+     CLOSED: [2012-02-29 Wed 08:46]
+*** TODO Sending todos over text message
+**** TODO Sending
+**** TODO Receiving
 *** TODO Store saved locations
-*** TODO Lots of other things
+*** TODO Geo-tagged pictures
+**** TODO Imgur integration
+*** TODO Friends - use built in contacts stuff
 *** TODO Meet with group?
 * ECS 140B
 ** DONE Project (HW 5) proposal    
    SCHEDULED: <2012-02-27 Mon>
-** TODO Finish up README for HW 3, due 2/28
-   SCHEDULED: <2012-02-28 Tue>
-** TODO Review Brian and Allyson's code for HW 3
-** TODO Study for quiz 3, 3/1
-   SCHEDULED: <2012-03-01 Thu>
+** DONE Finish up README for HW 3, due 2/28
+   SCHEDULED: <2012-02-28 Tue> CLOSED: [2012-02-27 Mon 20:18]
+** DONE Review Brian and Allyson's code for HW 3
+   CLOSED: [2012-03-01 Thu 08:18]
+** DONE Study for quiz 3, 3/1
+   SCHEDULED: <2012-03-01 Thu> CLOSED: [2012-03-01 Thu 08:18]
 * MAT 108
-** TODO Assignment 10, due 2/29
-   SCHEDULED: <2012-02-29 Wed>
+** DONE Assignment 10, due 2/29
+   SCHEDULED: <2012-02-29 Wed> CLOSED: [2012-02-29 Wed 08:47]
+*** DONE Section 5.1
+    CLOSED: [2012-02-27 Mon 20:43]
+*** DONE Section 5.2
+    CLOSED: [2012-02-29 Wed 08:47]
+** TODO Study for Midterm on 3/2
 * LIN 121
-** TODO Homework 4, due 2/27
+** DONE Homework 4, due 2/27
    SCHEDULED: <2012-02-27 Mon>
-** TODO Homework 5, due 2/29
-   SCHEDULED: <2012-02-29 Wed>
+** DONE Homework 5, due 2/29
+   SCHEDULED: <2012-02-29 Wed> CLOSED: [2012-02-29 Wed 08:47]
 * Research
-** TODO Prepare for meeting on 2/29 
-   SCHEDULED: <2012-02-29 Wed>
-3pm, but where? Ask Prem
-*** TODO Make sure data is in DB correctly
-*** TODO Look through data, see what's in there
+** DONE Prepare for meeting on 2/29 1131 (1125?) Kemper 
+   SCHEDULED: <2012-02-29 Wed> CLOSED: [2012-03-01 Thu 08:18]
+*** DONE Ask prem what information he wants
+    CLOSED: [2012-02-29 Wed 08:48]
+*** DONE Ask prem what room it's in - 1131 or 1125?
+    CLOSED: [2012-02-29 Wed 08:48]
+*** DONE Make sure data is in DB correctly
+    CLOSED: [2012-03-01 Thu 08:18]
+*** DONE Look through data, see what's in there
+    CLOSED: [2012-03-01 Thu 08:18]
 
+
+** TODO posts_tags table - table where each tag is associated with a number of rows in the posts db
+** TODO skewness of distribution of rep vs size of network
