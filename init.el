@@ -140,6 +140,11 @@
 ;; ruby
 (setq ruby-indent-level 4)
 
+
+;; sisal
+(load "~/.emacs.d/plugins/sisal-mode.el")
+
+
 ;; slime
 (add-to-list 'load-path "~/.emacs.d/plugins/slime/")
 (require 'slime-autoloads)
