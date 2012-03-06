@@ -25,6 +25,8 @@
    CLOSED: [2012-03-01 Thu 08:18]
 ** DONE Study for quiz 3, 3/1
    SCHEDULED: <2012-03-01 Thu> CLOSED: [2012-03-01 Thu 08:18]
+** DONE HW 4, due 3/6
+   CLOSED: [2012-03-05 Mon 22:46]
 * MAT 108
 ** DONE Assignment 10, due 2/29
    SCHEDULED: <2012-02-29 Wed> CLOSED: [2012-02-29 Wed 08:47]
@@ -32,12 +34,15 @@
     CLOSED: [2012-02-27 Mon 20:43]
 *** DONE Section 5.2
     CLOSED: [2012-02-29 Wed 08:47]
-** TODO Study for Midterm on 3/2
+** DONE Study for Midterm on 3/2
+   CLOSED: [2012-03-05 Mon 22:46]
+** TODO Assn 11 due 3/7
 * LIN 121
 ** DONE Homework 4, due 2/27
    SCHEDULED: <2012-02-27 Mon>
 ** DONE Homework 5, due 2/29
    SCHEDULED: <2012-02-29 Wed> CLOSED: [2012-02-29 Wed 08:47]
+** TODO Homework 6, due 3/7
 * Research
 ** DONE Prepare for meeting on 2/29 1131 (1125?) Kemper 
    SCHEDULED: <2012-02-29 Wed> CLOSED: [2012-03-01 Thu 08:18]
@@ -49,7 +54,6 @@
     CLOSED: [2012-03-01 Thu 08:18]
 *** DONE Look through data, see what's in there
     CLOSED: [2012-03-01 Thu 08:18]
-
-
+   
 ** TODO posts_tags table - table where each tag is associated with a number of rows in the posts db
 ** TODO skewness of distribution of rep vs size of network
