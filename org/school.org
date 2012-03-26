@@ -57,3 +57,4 @@
    
 ** TODO posts_tags table - table where each tag is associated with a number of rows in the posts db
 ** TODO skewness of distribution of rep vs size of network
+** TODO add plots and such to wiki page

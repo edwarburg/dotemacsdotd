@@ -134,7 +134,7 @@
 
 
 ;; R
-(load  "~/.emacs.d/plugins/ess-5.12/lisp/ess-site.el")
+;;(load  "~/.emacs.d/plugins/ess-5.12/lisp/ess-site.el")
 
 
 ;; ruby
